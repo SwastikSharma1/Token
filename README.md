@@ -2,7 +2,7 @@ MyToken Smart Contract
 
 Overview
 
-MyToken is a simple ERC-20 compatible smart contract written in Solidity. It supports minting and burning of a custom token named SATYAMMJHA (abbreviation: SJH).
+MyToken is a simple ERC-20 compatible smart contract written in Solidity. It supports minting and burning of a custom token named Swastik (abbreviation: Swa).
 
 Contract Details
 
