@@ -1,4 +1,4 @@
-MyToken Smart Contract
+First_Token Smart Contract
 
 Overview
 
