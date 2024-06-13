@@ -10,7 +10,7 @@ Token Name: Swastik
 
 Token Abbreviation: Swa
 
-Compiler Version: 0.8.18
+Compiler Version: 0.8.26
 
 Functions
 
