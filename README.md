@@ -1,39 +1,47 @@
-First_Token Smart Contract
+# MyToken Smart Contract
 
-Overview
+## Overview
 
-MyToken is a simple ERC-20 compatible smart contract written in Solidity. It supports minting and burning of a custom token named Swastik (abbreviation: Swa).
+MyToken is a basic token contract on the Ethereum blockchain.
 
-Contract Details
+- **Token Name:** Swastik
+- **Token Symbol:** Swa
+- **Total Supply:** 0 initially
 
-Token Name: Swastik
+## Functionalities
 
-Token Abbreviation: Swa
+### mint
 
-Compiler Version: 0.8.26
+```solidity
+function mint(address _address, uint256 _value) public
+```
 
-Functions
+- Increases total supply and balances of `_address` by `_value`.
 
-mint(address _address, uint256 _value): Mints _value tokens to _address.
+### burn
 
-burn(address _address, uint256 _value): Burns _value tokens from _address if the balance is sufficient.
+```solidity
+function burn(address _address, uint256 _value) public
+```
 
-Usage
+- Decreases total supply and balances of `_address` by `_value`, if the address has enough tokens.
 
-Minting Tokens
+## Usage
 
-solidity
+1. **Minting Tokens:**
+   ```solidity
+   mint(0xYourAddress, 100);
+   ```
 
-myToken.mint(0xYourAddress, 1000);
+2. **Burning Tokens:**
+   ```solidity
+   burn(0xYourAddress, 50);
+   ```
 
-Burning Tokens
+## Author
 
-solidity
+Swastik
 
-myToken.burn(0xYourAddress, 500);
+## License
 
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Author Swastik
+MIT License
